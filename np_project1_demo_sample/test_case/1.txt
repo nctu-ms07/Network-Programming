@@ -1,0 +1,12 @@
+printenv PATH
+ls
+setenv PATH .
+printenv PATH
+ls
+setenv PATH bin
+ls -1 bin
+date
+printenv ABC
+setenv ABC DEF
+printenv ABC
+exit

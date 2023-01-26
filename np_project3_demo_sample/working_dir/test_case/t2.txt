@@ -1,0 +1,11 @@
+setenv PATH bin:.:/usr/bin
+sleep 2
+cat <2
+sleep 1
+name user1
+sleep 1
+name user2
+number test.html | delaycat 2
+sleep 3
+number test.html | delaycat 5
+exit

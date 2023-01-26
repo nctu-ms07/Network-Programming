@@ -1,0 +1,9 @@
+setenv PATH bin:.:/usr/bin
+sleep 2
+printenv PATH
+sleep 3
+removetag test.html |2
+removetag test.html | number | delaycat 2 |1
+delaycat 3
+ls | delaycat 5
+exit

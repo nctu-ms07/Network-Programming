@@ -1,0 +1,4 @@
+manyblessings | cat | cat | cat | wc -c
+manyblessings | cat | cat | cat |1
+wc -c
+exit
